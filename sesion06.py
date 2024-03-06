@@ -142,3 +142,12 @@ x = 1
 y = 0
 print (x > 0 or (x/y) > 0)
 # print (x > 2 or (x/y) > 2)
+
+a = 1
+b = 2
+c = 1.0
+print (id(a))
+print (id(b))
+print (id(c))
+print (a == c)
+print (a is not c)
